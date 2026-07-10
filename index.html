@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Closer than it seems.</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#050505;
+color:white;
+overflow-x:hidden;
+font-family:'Poppins',sans-serif;
+
+}
+
+/* Hero */
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65)),
+url("https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+
+animation:fade 2.5s;
+
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+.hero-content{
+
+max-width:900px;
+
+backdrop-filter:blur(4px);
+
+padding:40px;
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:25px;
+
+background:rgba(0,0,0,.25);
+
+}
+
+h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:72px;
+
+font-weight:300;
+
+letter-spacing:3px;
+
+margin-bottom:20px;
+
+}
+
+.line{
+
+width:130px;
+
+height:2px;
+
+background:#d6b36d;
+
+margin:auto;
+
+margin-bottom:30px;
+
+}
+
+.tag{
+
+font-size:22px;
+
+color:#e8d5aa;
+
+margin-bottom:50px;
+
+letter-spacing:1px;
+
+}
+
+button{
+
+padding:18px 60px;
+
+border:none;
+
+background:#d6b36d;
+
+color:black;
+
+font-size:18px;
+
+border-radius:50px;
+
+cursor:pointer;
+
+transition:.4s;
+
+font-weight:bold;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 35px rgba(214,179,109,.5);
+
+}
+
+.scroll{
+
+position:absolute;
+
+bottom:35px;
+
+width:100%;
+
+text-align:center;
+
+font-size:15px;
+
+color:white;
+
+animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(10px);}
+100%{transform:translateY(0);}
+
+}
+
+/* SECTION */
+
+section{
+
+padding:120px 12%;
+
+}
+
+.quote{
+
+font-size:52px;
+
+font-family:'Cormorant Garamond',serif;
+
+text-align:center;
+
+margin-bottom:25px;
+
+}
+
+.gold{
+
+color:#d6b36d;
+
+}
+
+.text{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+line-height:2;
+
+font-size:20px;
+
+color:#dddddd;
+
+}
+
+/* Card */
+
+.card{
+
+margin-top:80px;
+
+background:#111;
+
+padding:50px;
+
+border-radius:25px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.small{
+
+text-align:center;
+
+color:#d6b36d;
+
+letter-spacing:4px;
+
+margin-bottom:20px;
+
+}
+
+footer{
+
+padding:70px;
+
+text-align:center;
+
+font-size:18px;
+
+color:#777;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="hero-content">
+
+<h1>Closer than it seems.</h1>
+
+<div class="line"></div>
+
+<div class="tag">
+
+Every memory built us.
+
+</div>
+
+<button onclick="document.getElementById('story').scrollIntoView()">
+
+Begin Journey
+
+</button>
+
+</div>
+
+<div class="scroll">
+
+▼ Scroll ▼
+
+</div>
+
+</div>
+
+<section id="story">
+
+<div class="quote">
+
+Some stories are written with words.
+
+<br>
+
+<span class="gold">
+
+Ours was written with moments.
+
+</span>
+
+</div>
+
+<p class="text">
+
+Every photograph holds a heartbeat.
+
+Every smile reminds us of a day that quietly became unforgettable.
+
+Some memories fade with time.
+
+Others become the reason we smile years later.
+
+This place is more than a website.
+
+It is a collection of moments that shaped us.
+
+A journey through laughter, silence, distance, happiness and love.
+
+Welcome to our story.
+
+</p>
+
+<div class="card">
+
+<div class="small">
+
+CHAPTER ONE
+
+</div>
+
+<div class="quote">
+
+Where everything quietly began...
+
+</div>
+
+<p class="text">
+
+(Here we will later add your first memory together, along with a beautiful full-screen photo.)
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+Made with countless memories ❤️
+
+</footer>
+
+</body>
+</html>
