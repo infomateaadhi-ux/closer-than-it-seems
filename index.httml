@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Annaammo</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content glass">
+      <h1>Happy Birthday,<br>Annaammoo 🤍</h1>
+      <div class="gold-line"></div>
+
+      <p class="subtitle">A little surprise...</p>
+
+      <p class="message">
+      Every birthday deserves a gift.<br>
+      This one isn't wrapped in paper.<br><br>
+      It's wrapped in memories.
+      </p>
+
+      <div class="buttons">
+          <a href="#story" class="btn">Open Your Gift ✨</a>
+          <button id="musicBtn" class="music">♪ Press Play</button>
+      </div>
+  </div>
+
+  <div class="scroll">▼ Scroll ▼</div>
+</header>
+
+<section id="story">
+<h2>Some stories are written with words.<br><span>Ours was written with moments.</span></h2>
+
+<p>
+Every photograph holds a heartbeat. Every smile reminds us of a day that quietly became unforgettable.
+Some memories fade with time. Others become the reason we smile years later.
+This place is more than a website. It is a collection of moments that shaped us.
+A journey through laughter, silence, distance, happiness and love.
+Welcome to our story.
+</p>
+
+<div class="chapter">
+<p class="chapter-title">CHAPTER ONE</p>
+<h3>Where everything quietly began...</h3>
+<p>(Here we will later add your first memory together, along with a beautiful full-screen photo.)</p>
+</div>
+
+<p class="footer">Made with countless memories ❤️</p>
+
+</section>
+
+<audio id="bgMusic" src="music/song.mp3"></audio>
+<script src="script.js"></script>
+
+</body>
+</html>
+  
